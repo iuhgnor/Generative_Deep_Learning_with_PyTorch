@@ -117,6 +117,7 @@ bash scripts/download.sh [faces, bricks, recipes, flowers, wines, cellosuites, c
 Tensorboard is really useful for monitoring experiments and seeing how your model training is progressing.
 
 To launch Tensorboard, run the following script (from outside the container):
+
 * `<CHAPTER>` - the required chapter (e.g. `03_vae`)
 * `<EXAMPLE>` - the required example (e.g. `02_vae_fashion`)
 
@@ -125,6 +126,7 @@ bash scripts/tensorboard.sh <CHAPTER> <EXAMPLE>
 ```
 
 Tensorboard will be available in your local browser on the port specified in your `.env` file - for example:
+
 ```
 http://localhost:6006
 ```
@@ -136,5 +138,3 @@ To set up a virtual machine with GPU in Google Cloud Platform, follow the instru
 ## 📦 Other resources
 
 Some of the examples in this book are adapted from the excellent open source implementations that are available through the [Keras website](https://keras.io/examples/generative/). I highly recommend you check out this resource as new models and examples are constantly being added.
-
-
